@@ -1,9 +1,9 @@
 export enum HttpStatus {
-    ERROR = 404,
-    SUCCESS = 200
+	ERROR = 404,
+	SUCCESS = 200,
 }
 
- export enum HttpMessage {
-     ERROR = 'Server internal error',
-     SUCCESS = 'Server reponse success'
- }
+export enum HttpMessage {
+	ERROR = 'Server internal error',
+	SUCCESS = 'Server reponse success',
+}

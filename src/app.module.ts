@@ -4,8 +4,8 @@ import { AppService } from './app.service';
 import { TodoModule } from './modules/todo/todo.module';
 
 @Module({
-  imports: [TodoModule],
-  controllers: [AppController],
-  providers: [AppService],
+	imports: [TodoModule],
+	controllers: [AppController],
+	providers: [AppService],
 })
 export class AppModule {}
